@@ -2,8 +2,8 @@ Config = {}
 
 Config.PawnLocation = vector3(412.34, 314.81, 103.13)
 Config.BankMoney = false -- Set to true if you want the money to go into the players bank
-Config.UseTimes = false -- Set to false if you want the pawnshop open 24/7
-Config.TimeOpen = 7 -- Opening Time
+Config.UseTimes = true -- Set to false if you want the pawnshop open 24/7
+Config.TimeOpen = 9 -- Opening Time
 Config.TimeClosed = 17 -- Closing Time
 Config.SendMeltingEmail = true
 
@@ -20,27 +20,27 @@ Config.PawnItems = {
     },
     [3] = {
         item = "rolex",
-        price = math.random(50,100)
+        price = math.random(250,500)
     },
     [4] = {
         item = "10kgoldchain",
-        price = math.random(50,100)
+        price = math.random(500,1000)
     },
     [5] = {
         item = "tablet",
-        price = math.random(50,100)
+        price = math.random(250,550)
     },
     [6] = {
         item = "iphone",
-        price = math.random(50,100)
+        price = math.random(250,550)
     },
     [7] = {
         item = "samsungphone",
-        price = math.random(50,100)
+        price = math.random(250,550)
     },
     [8] = {
         item = "laptop",
-        price = math.random(50,100)
+        price = math.random(500,1000)
     }
 }
 
