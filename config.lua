@@ -1,15 +1,17 @@
 Config = {}
 
 Config.PawnLocation = {
-    coords = vector3(-657.281, -857.386, 24.490),
-    length = 2.0,
-    width = 2.5,
-    heading = 1.81,
-    debugPoly = false,
-    minZ = 23.66,
-    maxZ = 67.66,
-    distance = 2.0
-}
+    [1] = {
+            coords = vector3(-657.281, -857.386, 24.490),
+            length = 2.0,
+            width = 2.5,
+            heading = 1.81,
+            debugPoly = false,
+            minZ = 23.66,
+            maxZ = 67.66,
+            distance = 2.0
+        },
+    }
 
 Config.BankMoney = false -- Set to true if you want the money to go into the players bank
 Config.UseTimes = true -- Set to false if you want the pawnshop open 24/7
